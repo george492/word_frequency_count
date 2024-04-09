@@ -1,4 +1,4 @@
-"D:\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/CLion 2023.1.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\Georgehany\CLionProjects\word_frequency_count -B C:\Users\Georgehany\CLionProjects\word_frequency_count\cmake-build-debug
+"D:\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/CLion 2023.1.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\Georgehany\word_frequency_count -B C:\Users\Georgehany\word_frequency_count\cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Georgehany/CLionProjects/word_frequency_count/cmake-build-debug
+-- Build files have been written to: C:/Users/Georgehany/word_frequency_count/cmake-build-debug

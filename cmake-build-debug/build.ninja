@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Georgehany/CLionProjects/word_frequency_count/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Georgehany/word_frequency_count/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target word_frequency
 
@@ -49,8 +49,14 @@ cmake_ninja_workdir = C$:/Users/Georgehany/CLionProjects/word_frequency_count/cm
 
 build cmake_object_order_depends_target_word_frequency: phony || CMakeFiles/word_frequency.dir
 
-build CMakeFiles/word_frequency.dir/main.cpp.obj: CXX_COMPILER__word_frequency_Debug C$:/Users/Georgehany/CLionProjects/word_frequency_count/main.cpp || cmake_object_order_depends_target_word_frequency
+build CMakeFiles/word_frequency.dir/main.cpp.obj: CXX_COMPILER__word_frequency_Debug C$:/Users/Georgehany/word_frequency_count/main.cpp || cmake_object_order_depends_target_word_frequency
   DEP_FILE = CMakeFiles\word_frequency.dir\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\word_frequency.dir
+  OBJECT_FILE_DIR = CMakeFiles\word_frequency.dir
+
+build CMakeFiles/word_frequency.dir/test_class.cpp.obj: CXX_COMPILER__word_frequency_Debug C$:/Users/Georgehany/word_frequency_count/test_class.cpp || cmake_object_order_depends_target_word_frequency
+  DEP_FILE = CMakeFiles\word_frequency.dir\test_class.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\word_frequency.dir
   OBJECT_FILE_DIR = CMakeFiles\word_frequency.dir
@@ -63,7 +69,7 @@ build CMakeFiles/word_frequency.dir/main.cpp.obj: CXX_COMPILER__word_frequency_D
 #############################################
 # Link the executable word_frequency.exe
 
-build word_frequency.exe: CXX_EXECUTABLE_LINKER__word_frequency_Debug CMakeFiles/word_frequency.dir/main.cpp.obj
+build word_frequency.exe: CXX_EXECUTABLE_LINKER__word_frequency_Debug CMakeFiles/word_frequency.dir/main.cpp.obj CMakeFiles/word_frequency.dir/test_class.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\word_frequency.dir
@@ -78,7 +84,7 @@ build word_frequency.exe: CXX_EXECUTABLE_LINKER__word_frequency_Debug CMakeFiles
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Georgehany\CLionProjects\word_frequency_count\cmake-build-debug && "D:\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Georgehany\word_frequency_count\cmake-build-debug && "D:\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,7 +95,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Georgehany\CLionProjects\word_frequency_count\cmake-build-debug && "D:\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Georgehany\CLionProjects\word_frequency_count -BC:\Users\Georgehany\CLionProjects\word_frequency_count\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Georgehany\word_frequency_count\cmake-build-debug && "D:\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Georgehany\word_frequency_count -BC:\Users\Georgehany\word_frequency_count\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -107,7 +113,7 @@ build word_frequency: phony word_frequency.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Georgehany/CLionProjects/word_frequency_count/cmake-build-debug
+# Folder: C:/Users/Georgehany/word_frequency_count/cmake-build-debug
 
 build all: phony word_frequency.exe
 
@@ -118,14 +124,14 @@ build all: phony word_frequency.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/Georgehany/CLionProjects/word_frequency_count/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/Georgehany/word_frequency_count/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/Georgehany/CLionProjects/word_frequency_count/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/Georgehany/word_frequency_count/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

@@ -1,3 +1,3 @@
-C:/Users/Georgehany/CLionProjects/word_frequency_count/cmake-build-debug/CMakeFiles/word_frequency.dir
-C:/Users/Georgehany/CLionProjects/word_frequency_count/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Georgehany/CLionProjects/word_frequency_count/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Georgehany/word_frequency_count/cmake-build-debug/CMakeFiles/word_frequency.dir
+C:/Users/Georgehany/word_frequency_count/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Georgehany/word_frequency_count/cmake-build-debug/CMakeFiles/rebuild_cache.dir

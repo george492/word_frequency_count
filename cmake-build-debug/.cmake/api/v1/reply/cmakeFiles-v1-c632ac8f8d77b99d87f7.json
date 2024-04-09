@@ -149,8 +149,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/Georgehany/CLionProjects/word_frequency_count/cmake-build-debug",
-		"source" : "C:/Users/Georgehany/CLionProjects/word_frequency_count"
+		"build" : "C:/Users/Georgehany/word_frequency_count/cmake-build-debug",
+		"source" : "C:/Users/Georgehany/word_frequency_count"
 	},
 	"version" : 
 	{
